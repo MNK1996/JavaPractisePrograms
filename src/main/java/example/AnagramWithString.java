@@ -12,18 +12,19 @@ public class AnagramWithString {
             char ch= a.charAt(i);
             System.out.println(Integer.valueOf(ch-'a'));
             res1+= (ch-'a'+1)*Math.pow(2,ch-'a'+1);
-            System.out.println(res1);
+            System.out.println("res1 : "+res1);
         }
         for (int i=0;i<b.length()-1;i++){
             char ch= b.charAt(i);
             res2+= (ch-'a'+1)*Math.pow(2,ch-'a'+1);
+            System.out.println("res2 : "+res2);
         }
         if (res1 == res2){
             System.out.println(true);
         }
         System.out.println(7*Math.pow(2,7));
 //        System.out.println(res);
-//        anagramWithString(a, b);
+        anagramWithString(a, b);
     }
 
     private static void anagramWithString(String a, String b) {
