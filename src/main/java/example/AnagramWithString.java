@@ -1,6 +1,8 @@
 package example;
 
 import java.util.HashMap;
+import java.util.List;
+import java.util.stream.Stream;
 
 public class AnagramWithString {
     public static void main(String[] args) {
@@ -8,6 +10,11 @@ public class AnagramWithString {
         String b = "forgeeksgeeks";
         long res1 = 0,res2=0;
         String s = "geeksForGeeks";
+
+        HashMap<String, Integer> hm= new HashMap<>();
+//        Stream<String> st= List.of(a.charAt(a))
+
+
         for (int i=0;i<a.length()-1;i++){
             char ch= a.charAt(i);
             System.out.println(Integer.valueOf(ch-'a'));

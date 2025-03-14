@@ -11,10 +11,10 @@ public class LengthofLastword {
         System.out.println(sb.length());
         String[] words = s.split(" ");
         int len =words[words.length-1].length();
-        System.out.println(len);
+//        System.out.println(len);
 //        for(String word:words.length-1.){
 //
 //        }
-        return 0;
+        return len;
     }
 }
