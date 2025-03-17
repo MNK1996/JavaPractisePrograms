@@ -1,10 +1,11 @@
 package example;
 
 
-public class NonRepeatingCharacter {
+public class ComparingTwoStrings {
     public static void main(String[] args) {
         String s ="hello";
         String s1=new String("hello");
+        String[] s2={"hello", "apple","raamp"};
         if (s1==s){
             // 1. To Compare both strings if is same "s1.equals(s)" hello.equals(hello)
             //  2. To Compare both strings are in different format s1.equalsIgnoreCase(s) hello.equals(Hello)
