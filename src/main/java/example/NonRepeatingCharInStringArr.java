@@ -9,7 +9,6 @@ public class NonRepeatingCharInStringArr {
     public static void main(String[] args) {
         String[] s = {"hello", "apple", "raamp"};
 
-
         for (String str : s) {
             HashMap<Character, Integer> hm = new LinkedHashMap<>();
             for (char c : str.toCharArray()) {
