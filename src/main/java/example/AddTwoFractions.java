@@ -2,7 +2,7 @@ package example;
 
 public class AddTwoFractions {
     public static void main(String[] args) {
-        int a= 3;
+        int a=3;
         int b=4;
         int c=7;
         int d=3;
