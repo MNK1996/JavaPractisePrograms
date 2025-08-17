@@ -2,7 +2,7 @@ package example;
 
 public class CountStringWithNumber {
     public static void main(String[] args) {
-        String str = "geeks5"; // geeks3 -> geeks=5 then
+        String str = "geeks4"; // geeks3 -> geeks=5 then
         System.out.println(countStringWithNumber(str));
     }
 

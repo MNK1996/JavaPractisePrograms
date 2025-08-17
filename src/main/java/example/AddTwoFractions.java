@@ -6,7 +6,14 @@ public class AddTwoFractions {
         int b=4;
         int c=7;
         int d=3;
-        addTwoFractions(a,b,c,d);
+//        addTwoFractions(a,b,c,d);
+        String s1="Hello";
+        String s2="Hello";
+        String s3=new String("Hello");
+        System.out.println(s1.hashCode());
+        System.out.println(s2.hashCode());
+        System.out.println(s3);
+
     }
 
     private static void addTwoFractions(int a, int b, int c, int d) {
