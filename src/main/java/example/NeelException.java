@@ -6,8 +6,8 @@ class NeelException extends ArithmeticException {
     }
 }
 
-class NeelExceptionIntI extends ArithmeticException{
-    public NeelExceptionIntI(String s){
+class NeelExceptionIntI extends NeelException{
+    public NeelExceptionIntI(String s) throws NeelException{
         super(s);
     }
 }

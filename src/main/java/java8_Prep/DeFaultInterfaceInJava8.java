@@ -18,7 +18,9 @@ public class DeFaultInterfaceInJava8 {
 
         /** Bi-Predicate **/
         BiPredicate<Integer, Integer> biPredicate = (a, b) -> (a + b) >= 5;
+        BiPredicate<Integer, Integer> biPredicate1 = (a, b) -> (a + b) <= 5;
         System.out.println("BiPredicate : " + biPredicate.test(4, 9)); //
+        System.out.println("BiPredicate Joining : " + biPredicate.or(biPredicate1).test(4, 3));
 
 
         /**   Function Interface Input will be anything
@@ -62,7 +64,6 @@ public class DeFaultInterfaceInJava8 {
 //        Supplier supplier1 =() -> 5+5;
 
         System.out.println("Supplier : " + supplier.get());
-
 
     }
 }
