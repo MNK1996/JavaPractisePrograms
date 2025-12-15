@@ -12,10 +12,9 @@ public class sampleQuestion {
         List<Integer> num= Arrays.asList(71, 18, 42, 21, 67, 32, 95, 14, 56, 87);
 
         num.stream().filter(n -> n%2==0).toList().forEach(n-> System.out.print(n +" "));
-         System.out.println();
+        System.out.println();
         num.stream().filter(n -> n%2!=0).toList().forEach(n-> System.out.print(n +" "));
         System.out.println();
-
 
         String s= "Hello";
         List<Character> collect = s.chars().mapToObj(c -> (char) c).collect(Collectors.toList());

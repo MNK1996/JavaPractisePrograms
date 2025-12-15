@@ -44,6 +44,7 @@ public class StreamApi {
         System.out.println("Long Stream: " + ls);
         //       .forEach(i-> System.out.println("Terminal Operations : "+i));
 
+
         List<Integer> str = Arrays.asList(1, 3, 3, 4, 7, 9, 5, 5, 5);
         Set<Integer> set = new HashSet<>();
         str.stream().limit(5).skip(4).forEach(x -> System.out.println("Limit and Skip : " + x));

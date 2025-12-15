@@ -10,10 +10,10 @@ public class SingletonExample {
 
     }
     public static class Singleton{
-        Singleton instance;
+        private static final Singleton instance = new Singleton();;
       void singleton(){
            if (instance==null){
-               instance=new Singleton();
+//               instance=new Singleton();
                System.out.println("New instance created");
            }
            else {
@@ -25,4 +25,3 @@ public class SingletonExample {
     }
 
 }
-

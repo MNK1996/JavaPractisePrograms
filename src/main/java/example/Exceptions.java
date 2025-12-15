@@ -18,6 +18,13 @@ public class Exceptions {
         int[] k = new int[5];
         List<Exception> exceptions = new ArrayList<>();
 
+        try{
+            if(i==0)
+                throw new  CustomException("Neel");
+        }catch (CustomException c){
+            System.out.println("From Catch Block : "+c);
+        }
+
         try {
             System.out.print("Enter the value : ");
             br = new BufferedReader(new InputStreamReader(System.in));

@@ -1,6 +1,4 @@
-package DSA;
-
-import java.util.List;
+package DSA.LinkedList;
 
 public class LinkedListMain{
     public static void main(String[] args) {

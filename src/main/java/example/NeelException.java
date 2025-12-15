@@ -5,9 +5,15 @@ class NeelException extends ArithmeticException {
         super(s);
     }
 }
-
+  
 class NeelExceptionIntI extends NeelException{
     public NeelExceptionIntI(String s) throws NeelException{
+        super(s);
+    }
+}
+
+class CustomException extends Throwable {
+    public CustomException(String s){
         super(s);
     }
 }

@@ -7,10 +7,7 @@ public class Banking extends PaymentHandler {
         if (amount<=500){
             System.out.println("Payment By Banking :"+ amount);
         }else {
-
-
             next.handlePayment(amount);
-
         }
     }
 }
