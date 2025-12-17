@@ -77,14 +77,5 @@ public class StreamAPIProblems {
                 .map(word -> new StringBuilder(word).reverse().toString())
                 .collect(Collectors.toList());
         System.out.println(reversedWords); // Output: [avaJ, maertS, IPA]
-
-
-
-
-
-
-
-
-
     }
 }
